@@ -9,9 +9,9 @@ int main(int argc, char *argv[])
 
     MySingleton &s = MySingleton::getInstance();
 
-    std::cout << "end: " << &s << std::endl;
+    std::cout << "Address: " << &s << std::endl;
 
-    std::cout << "mult: " << s.multiply(2,2) << std::endl;
+    std::cout << "Multiplication: " << s.multiply(2, 2) << std::endl;
 
     return a.exec();
 }

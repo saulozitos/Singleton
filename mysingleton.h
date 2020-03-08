@@ -10,6 +10,5 @@ private:
     MySingleton() = default;
     virtual ~MySingleton() = default;
     MySingleton(const MySingleton&) = delete;
-    MySingleton(const MySingleton&&) = delete;
     MySingleton& operator = (const MySingleton&) = delete;
 };
